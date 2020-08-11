@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+h2 {
+  font-weight: 300;
+  text-align: right;
+}
+#quote-box {
+  width: 64rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem 4rem;
+  background-color: #eaeaea;
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.75);
+}
+button {
+  background-color: #005c97;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  border-radius: 10rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+a:link,
+a:visited {
+  display: inline-block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #1da1f2;
+  padding: 1.5rem 3rem;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 10rem;
+  transition: all 0.3s ease-in-out;
+}
+a:active,
+a:hover {
+  background-color: #363795;
+}
